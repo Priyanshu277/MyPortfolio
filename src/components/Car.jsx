@@ -4,7 +4,7 @@ import {motion} from 'framer-motion'
 const Car = ({ left, direction}) => {
   return (
     <motion.img
-      src="/src/assets/spr_formula_0.png"
+      src="/spr_formula_0.png"
       alt="Car"
       className="absolute bottom-20 w-24 z-10"
       animate={{ left }}

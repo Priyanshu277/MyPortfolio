@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.building-glow {
+    box-shadow: 0 0 32px 8px #ffe066, 0 0 8px 2px #fff;
+    transition: box-shadow 0.3s;
+  }
+  .building-glow:hover {
+    box-shadow: 0 0 48px 16px #ffd700, 0 0 16px 4px #fff;
+  }
